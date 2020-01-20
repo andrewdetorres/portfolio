@@ -42,7 +42,7 @@
           De Torres
       </div>
       <h4 class="text-center my-5">I'm a full stack web developer based in Vacnouver, BC.</h4>
-      <button href="#" class="btn btn-primary my-5">View Work</button>
+      <button href="#" class="btn btn-primary">View Work</button>
     </div>
   </div>
 
