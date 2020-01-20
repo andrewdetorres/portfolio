@@ -7,4 +7,14 @@ $theme-colors: (
   "info": #6dd5ed,
   "facebook":#3b5998,
   "google":#db3236,
+  "instagram": #E1306C,
+  "github": #24292e,
+
 );
+
+$break-points: (
+  "small": 576px,
+  "medium": 768px,
+  "large": 992px,
+  "extra-large": 1200px,
+)

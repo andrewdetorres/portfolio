@@ -13,17 +13,19 @@
     name="description"
     content="Full stack web developer currently residing in the Vancouver area. Skills include Wordpress, Drupal, ReactJS, PHP, NodeJS."
     />
-  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+  
   <link rel="apple-touch-icon" href="images/iphone_icon.png" />
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,700,800,900&display=swap" rel="stylesheet">
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="assets/css/style.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+
+  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
 
   <!-- Google Font for logo   -->
   <link href="assets/fonts/fontawesome/css/all.min.css" rel="stylesheet" />
@@ -32,6 +34,17 @@
 
   <?php require_once('templates/navigation.html'); ?>
 
+  <div class="container mt-5">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+      <div class="global-title justify-self-start">
+          Andrew
+          <br>
+          De Torres
+      </div>
+      <h4 class="text-center my-5">I'm a full stack web developer based in Vacnouver, BC.</h4>
+      <button href="#" class="btn btn-primary my-5">View Work</button>
+    </div>
+  </div>
 
 </body>
 <footer>

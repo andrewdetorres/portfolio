@@ -1,0 +1,24 @@
+
+
+.global-title {
+  font-size: 85px;
+  line-height: 0.8em;
+  font-weight: 600;
+  text-align: left;
+  background: url('https://images.pexels.com/photos/1616403/pexels-photo-1616403.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(255, 255, 255, 0);
+  background-size: cover;
+  text-shadow: 0 0 rgba(0, 0, 0, .06);
+  @media screen and (min-width: map-get($break-points, 'medium')) {
+    font-size: 125px;
+  }
+  @media screen and (min-width: map-get($break-points, 'large')) {
+    font-size: 175px;
+  }
+  @media screen and (min-width: map-get($break-points, 'extra-large')) {
+    font-size: 200px;
+  }
+}
