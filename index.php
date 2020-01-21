@@ -43,13 +43,13 @@
       </div>
       <h4 class="text-center my-5">I'm a full stack web developer based in Vancouver, BC.</h4>
       <a href="/#projects">
-        <button class="btn btn-primary">View Work</button>
+        <button class="btn btn-outline-dark">View Work</button>
       </a>
     </div>
   </div>
 
   <div class="m-5" id="projects">
-    <div class="d-flex flex-md-row flex-column flex-md-wrap justify-content-center px-5">
+    <div class="d-flex flex-md-row flex-column flex-md-wrap justify-content-between px-5">
       <div class="project-cell p-md-0 p-2">
         <div class="overlay"></div>
         <a href="https://www.deckplas.com" target="_blank">
@@ -67,7 +67,6 @@
         </div>
       </div>
       <div class="project-cell p-md-0 p-2">
-        <div class="overlay"></div>
         <a href="https://www.quickgradient.com" target="_blank">
           <div class="logo invert" style="background-image: url(images/quickgradient-logo.png)"></div>
         </a>

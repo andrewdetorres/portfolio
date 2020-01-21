@@ -18,7 +18,7 @@
     transition: ease all 0.6s;
   }
   .logo {
-    opacity: 0;
+    // opacity: 0;
     position: absolute;
     width: 75%;
     height: 75%;
@@ -34,10 +34,10 @@
   .invert {
     filter: invert(1);
   }
-  &:hover .overlay {
-    background-color:rgba(0,0,0,0.5);
+  .overlay {
+    background-color:rgba(0,0,0,0.3);
   }
-  &:hover .logo {
+  .logo {
     opacity: 1;
   }
   .project {
