@@ -41,23 +41,37 @@
           <br>
           De Torres
       </div>
-      <h4 class="text-center my-5">I'm a full stack web developer based in Vacnouver, BC.</h4>
-      <button href="#" class="btn btn-primary">View Work</button>
+      <h4 class="text-center my-5">I'm a full stack web developer based in Vancouver, BC.</h4>
+      <a href="/#projects">
+        <button class="btn btn-primary">View Work</button>
+      </a>
     </div>
   </div>
 
-  <div class="m-5">
-    <div class="d-flex flex-wrap justify-content-between px-5" style="line-height:30px;">
-      <div class="project-cell">
-        <img src="images/deckplas.jpeg" class="project" style="object-fit: cover">
+  <div class="m-5" id="projects">
+    <div class="d-flex flex-md-row flex-column flex-md-wrap justify-content-center px-5">
+      <div class="project-cell p-md-0 p-2">
+        <div class="overlay"></div>
+        <a href="https://www.deckplas.com" target="_blank">
+          <div class="logo invert" style="background-image: url(images/deckplas-logo.png)"></div>
+        </a>
+        <div class="project" style="background-image: url(images/deckplas.jpeg)">
         </div>
       </div>
-      <div class="project-cell">
-        <img src="images/deckplas.jpeg" class="project" style="object-fit: cover">
+      <div class="project-cell p-md-0 p-2">
+        <div class="overlay"></div>
+        <a href="https://www.tomsagebarbering.com" target="_blank">
+          <div class="logo invert" style="background-image: url(images/tomsagebarbering-logo.png)"></div>
+        </a>
+        <div class="project" style="background-image: url(images/tomsagebarbering.jpg)">
         </div>
       </div>
-      <div class="project-cell">
-        <img src="images/deckplas.jpeg" class="project" style="object-fit: cover">
+      <div class="project-cell p-md-0 p-2">
+        <div class="overlay"></div>
+        <a href="https://www.quickgradient.com" target="_blank">
+          <div class="logo invert" style="background-image: url(images/quickgradient-logo.png)"></div>
+        </a>
+        <div class="project quickgradient">
         </div>
       </div>
     </div>
