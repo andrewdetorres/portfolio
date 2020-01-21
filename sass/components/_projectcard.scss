@@ -1,0 +1,21 @@
+.project-cell {
+  flex: 0 0 33%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  box-sizing: border-box;
+  &:before {
+    content: '';
+    display: table;
+    padding-top: 100%;
+  }
+  .project {
+    flex-grow: 1;
+    border: 1px solid black;
+    background: tomato;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

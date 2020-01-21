@@ -46,6 +46,25 @@
     </div>
   </div>
 
+  <div class="m-5">
+    <div class="d-flex flex-wrap justify-content-between px-5" style="line-height:30px;">
+      <div class="project-cell">
+        <img src="images/deckplas.jpeg" class="project" style="object-fit: cover">
+        </div>
+      </div>
+      <div class="project-cell">
+        <img src="images/deckplas.jpeg" class="project" style="object-fit: cover">
+        </div>
+      </div>
+      <div class="project-cell">
+        <img src="images/deckplas.jpeg" class="project" style="object-fit: cover">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
 </body>
 <footer>
     <!-- Bootstrap Jquery -->
