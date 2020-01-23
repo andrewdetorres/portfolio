@@ -6,6 +6,7 @@
   background: url('https://images.pexels.com/photos/1616403/pexels-photo-1616403.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   background-repeat: no-repeat;
   background-clip: text;
+  background-attachment: fixed;
   -webkit-background-clip: text;
   color: rgba(255, 255, 255, 0);
   background-size: cover;
@@ -25,5 +26,21 @@
   @media screen and (min-width: map-get($break-points, 'extra-large')) {
     font-size: 200px;
     line-height: 0.8em;
+  }
+}
+
+.sub-title {
+  font-size: 18px;
+  @media screen and (min-width: map-get($break-points, 'small')) {
+    font-size: 20px;
+  }
+  @media screen and (min-width: map-get($break-points, 'medium')) {
+    font-size: 22px;
+  }
+  @media screen and (min-width: map-get($break-points, 'large')) {
+    font-size: 24px;
+  }
+  @media screen and (min-width: map-get($break-points, 'extra-large')) {
+    font-size: 26px;
   }
 }

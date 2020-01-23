@@ -36,12 +36,12 @@
 
   <div class="container mt-5">
     <div class="d-flex flex-column justify-content-center align-items-center">
-      <div class="global-title justify-self-start">
+      <div class="global-title align-self-start">
           Andrew
           <br>
           De Torres
       </div>
-      <h4 class="text-center my-5">I'm a full stack web developer based in Vancouver, BC.</h4>
+      <h4 class="text-center my-5 mx-auto sub-title">I'm a full stack web developer based in Vancouver, BC. Specializing in developing detail-oriented sites and applications</h4>
       <a href="/#projects">
         <button class="btn btn-outline-dark">View Work</button>
       </a>
@@ -49,8 +49,8 @@
   </div>
 
   <div class="m-5" id="projects">
-    <div class="d-flex flex-md-row flex-column flex-md-wrap justify-content-between px-5">
-      <div class="project-cell p-md-0 p-2">
+    <div class="d-flex flex-md-row flex-column flex-md-wrap justify-content-between px-md-5">
+      <div class="project-cell p-md-0 mb-2" id="deckplas">
         <div class="overlay"></div>
         <a href="https://www.deckplas.com" target="_blank">
           <div class="logo invert" style="background-image: url(images/deckplas-logo.png)"></div>
@@ -58,7 +58,7 @@
         <div class="project" style="background-image: url(images/deckplas.jpeg)">
         </div>
       </div>
-      <div class="project-cell p-md-0 p-2">
+      <div class="project-cell p-md-0 mb-2" id="tomsagebarbering">
         <div class="overlay"></div>
         <a href="https://www.tomsagebarbering.com" target="_blank">
           <div class="logo invert" style="background-image: url(images/tomsagebarbering-logo.png)"></div>
@@ -66,13 +66,23 @@
         <div class="project" style="background-image: url(images/tomsagebarbering.jpg)">
         </div>
       </div>
-      <div class="project-cell p-md-0 p-2">
+      <div class="project-cell p-md-0 mb-2" id="quickgradient">
         <a href="https://www.quickgradient.com" target="_blank">
           <div class="logo invert" style="background-image: url(images/quickgradient-logo.png)"></div>
         </a>
         <div class="project quickgradient">
         </div>
       </div>
+      <div class="project-cell p-md-0 mb-2" id="sitegen">
+        <div class="overlay"></div>
+          <a href="https://www.github.com/andrewdetorres/sitegen" target="_blank">
+            <div class="logo invert" style="background-image: url(images/SiteGen-logo.png)"></div>
+          </a>
+          <div class="project" style="background-image: url('https://images.pexels.com/photos/249798/pexels-photo-249798.png?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260')">
+          <div class="project quickgradient">
+        </div>
+      </div>
+    </div>
     </div>
   </div>
 
