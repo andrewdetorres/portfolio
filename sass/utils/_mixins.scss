@@ -1,0 +1,10 @@
+@mixin project-square($square) {
+  width: $square;
+  height: $square;
+  margin: 10px;
+  object-fit: cover;
+  img {
+    width: $square;
+    height: $square;
+  }
+}
