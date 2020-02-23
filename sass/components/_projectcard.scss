@@ -60,6 +60,11 @@
     text-align: center;
     h3 {
       display: inline-block;
+      -webkit-transition: ease all 0.2s;
+      transition: ease all 0.2s;
+      &:hover {
+        font-size: 35px;
+      }
     }
   }
 }

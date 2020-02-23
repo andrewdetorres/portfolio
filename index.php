@@ -48,10 +48,10 @@
   </div>
   
   <div class="m-5" id="projects">
-    <div class="d-flex flex-md-row flex-column flex-md-wrap justify-content-between px-md-5">
+    <div class="d-flex flex-md-row flex-column flex-md-wrap align-content-start px-md-5">
       
       <!-- Deckplas project Card -->
-      <div class="project-cell p-md-0 mb-2" id="deckplas">
+      <div class="project-cell p-md-0 mb-md-0 mb-2" id="deckplas">
         <div class="overlay"></div>
         <a href="https://www.deckplas.com" target="_blank">
           <div class="logo invert" style="background-image: url(images/deckplas-logo.png)"></div>
@@ -67,8 +67,31 @@
         </div>
       </div>
       
+      <!-- d8b3 project card -->
+      <div class="project-cell p-md-0 mb-md-0 mb-2" id="d8b3">
+        <div class="overlay"></div>
+        <a href="https://npmjs.com/d8b3" target="_blank">
+          <div class="logo invert" style="background-image: url(images/d8b3_bw.png)"></div>
+        </a>
+        <div class="links">
+          <h3>
+            <a href="https://npmjs.com/d8b3" target="_blank">
+              <i class="fab fa-npm text-white pr-2 npm"></i>
+            </a>
+          </h3>
+          <h3>
+            <a href="https://github.com/andrewdetorres/d8b3" target="_blank">
+              <i class="fab fa-github text-white pr-2 github"></i>
+            </a>
+          </h3>
+        </div>
+        <div class="project" style="background-image: url('https://static.npmjs.com/attachments/ck3uwvv67mydydr74ea00ip4j-bg-stripes.png')">
+          <div class="project quickgradient">
+          </div>
+        </div>
+      </div>
       <!-- Tom Sage BArbering project Card -->
-      <div class="project-cell p-md-0 mb-2" id="tomsagebarbering">
+      <div class="project-cell p-md-0 mb-md-0 mb-2" id="tomsagebarbering">
         <div class="overlay"></div>
         <a href="https://www.tomsagebarbering.com" target="_blank">
           <div class="logo invert" style="background-image: url(images/tomsagebarbering-logo.png)"></div>
@@ -85,19 +108,19 @@
       </div>
       
       <!-- Quickgradient porject card -->
-      <div class="project-cell p-md-0 mb-2" id="quickgradient">
+      <div class="project-cell p-md-0 mb-md-0 mb-2" id="quickgradient">
         <a href="https://www.quickgradient.com" target="_blank">
           <div class="logo invert" style="background-image: url(images/quickgradient-logo.png)"></div>
         </a>
         <div class="links">
           <h3>
-            <a href="https://github.com/andrewdetorres/quickgradient" target="_blank">
-              <i class="fab fa-github text-white pr-2 github"></i>
+            <a href="https://www.quickgradient.com" target="_blank">
+              <i class="fas fa-link text-white pr-2 github"></i>
             </a>
           </h3>
           <h3>
-            <a href="https://www.quickgradient.com" target="_blank">
-              <i class="fas fa-link text-white pr-2 github"></i>
+            <a href="https://github.com/andrewdetorres/quickgradient" target="_blank">
+              <i class="fab fa-github text-white pr-2 github"></i>
             </a>
           </h3>
         </div>
@@ -106,14 +129,14 @@
       </div>
       
       <!-- SiteGen project card -->
-      <div class="project-cell p-md-0 mb-2" id="sitegen">
+      <div class="project-cell p-md-0 mb-md-0 mb-2" id="sitegen">
         <div class="overlay"></div>
-        <a href="https://github.com/andrewdetorres/" target="_blank">
+        <a href="https://github.com/andrewdetorres/sitegen" target="_blank">
           <div class="logo invert" style="background-image: url(images/SiteGen-logo.png)"></div>
         </a>
         <div class="links">
           <h3>
-            <a href="https://github.com/andrewdetorres/" target="_blank">
+            <a href="https://github.com/andrewdetorres/sitegen" target="_blank">
               <i class="fab fa-github text-white pr-2 github"></i>
             </a>
           </h3>
