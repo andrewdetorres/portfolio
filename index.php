@@ -40,7 +40,7 @@
         <br>
         De Torres
       </div>
-      <h4 class="text-center my-5 mx-auto sub-title">I'm a 23 year old, <a href="https://en.wikipedia.org/wiki/Wales" target="_blank">Welsh</a>, full stack web developer based in Vancouver, BC. Specializing in developing detail-oriented sites and web applications</h4>
+      <h4 class="text-center my-5 mx-auto sub-title">I'm a 23 year old, <a href="https://shrin.cc/0PBDpMC" target="_blank">Welsh</a>, full stack web developer based in Vancouver, BC. Specializing in developing detail-oriented sites and web applications</h4>
       <a href="/#projects">
         <button class="btn btn-outline-dark">View Work</button>
       </a>
@@ -50,20 +50,27 @@
   <div class="m-5" id="projects">
     <div class="d-flex flex-md-row flex-column flex-md-wrap align-content-start px-md-5">
       
-      <!-- Deckplas project Card -->
-      <div class="project-cell p-md-0 mb-md-0 mb-2" id="deckplas">
+      <!-- Shrincc project card -->
+      <div class="project-cell p-md-0 mb-md-0 mb-2" id="shrincc">
         <div class="overlay"></div>
-        <a href="https://www.deckplas.com" target="_blank">
-          <div class="logo invert" style="background-image: url(images/deckplas-logo.png)"></div>
+        <a href="https://www.shrincc.com" target="_blank">
+          <div class="logo invert" style="background-image: url(images/shrincc-logo.png)"></div>
         </a>
         <div class="links">
           <h3>
-            <a href="https://www.deckplas.com" target="_blank">
-              <i class="fas fa-link text-white pr-2 github"></i>
+            <a href="https://www.shrincc.com" target="_blank">
+              <i class="fas fa-link text-white pr-2"></i>
+            </a>
+          </h3>
+          <h3>
+            <a href="https://github.com/andrewdetorres/shrincc" target="_blank">
+              <i class="fab fa-github text-white pr-2 github"></i>
             </a>
           </h3>
         </div>
-        <div class="project" style="background-image: url(images/deckplas.jpeg)">
+        <div class="project" style="background-image: url('https://images.pexels.com/photos/268415/pexels-photo-268415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')">
+          <div class="project quickgradient">
+          </div>
         </div>
       </div>
       
@@ -90,23 +97,7 @@
           </div>
         </div>
       </div>
-      <!-- Tom Sage BArbering project Card -->
-      <div class="project-cell p-md-0 mb-md-0 mb-2" id="tomsagebarbering">
-        <div class="overlay"></div>
-        <a href="https://www.tomsagebarbering.com" target="_blank">
-          <div class="logo invert" style="background-image: url(images/tomsagebarbering-logo.png)"></div>
-        </a>
-        <div class="links">
-          <h3>
-            <a href="https://www.tomsagebarbering.com" target="_blank">
-              <i class="fas fa-link text-white pr-2 github"></i>
-            </a>
-          </h3>
-        </div>
-        <div class="project" style="background-image: url(images/tomsagebarbering.jpg)">
-        </div>
-      </div>
-      
+
       <!-- Quickgradient porject card -->
       <div class="project-cell p-md-0 mb-md-0 mb-2" id="quickgradient">
         <a href="https://www.quickgradient.com" target="_blank">
@@ -127,7 +118,24 @@
         <div class="project quickgradient">
         </div>
       </div>
-      
+
+      <!-- Tom Sage Barbering project Card -->
+      <div class="project-cell p-md-0 mb-md-0 mb-2" id="tomsagebarbering">
+        <div class="overlay"></div>
+        <a href="https://www.tomsagebarbering.com" target="_blank">
+          <div class="logo invert" style="background-image: url(images/tomsagebarbering-logo.png)"></div>
+        </a>
+        <div class="links">
+          <h3>
+            <a href="https://www.tomsagebarbering.com" target="_blank">
+              <i class="fas fa-link text-white pr-2 github"></i>
+            </a>
+          </h3>
+        </div>
+        <div class="project" style="background-image: url(images/tomsagebarbering.jpg)">
+        </div>
+      </div>
+
       <!-- SiteGen project card -->
       <div class="project-cell p-md-0 mb-md-0 mb-2" id="sitegen">
         <div class="overlay"></div>
@@ -146,6 +154,24 @@
           </div>
         </div>
       </div>
+
+      <!-- Deckplas project Card -->
+      <div class="project-cell p-md-0 mb-md-0 mb-2" id="deckplas">
+        <div class="overlay"></div>
+        <a href="https://www.deckplas.com" target="_blank">
+          <div class="logo invert" style="background-image: url(images/deckplas-logo.png)"></div>
+        </a>
+        <div class="links">
+          <h3>
+            <a href="https://www.deckplas.com" target="_blank">
+              <i class="fas fa-link text-white pr-2 github"></i>
+            </a>
+          </h3>
+        </div>
+        <div class="project" style="background-image: url(images/deckplas.jpeg)">
+        </div>
+      </div>
+
     </div>
   </div>
   
